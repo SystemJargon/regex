@@ -1,0 +1,7 @@
+# DON'T LOAD THESE SITES THEY ARE JUST EXAMPLE MOCK UPS FOR REGEX STRIPPING / REPLACE / OTHER
+https://www.asd.google.com
+https://www.google.net
+https://www.google.co.nz
+https://google.com
+https://www.google.com/api?=login/someshit
+https://www.google.com/ads/getmeadrink/api?0284230284782487871837871301-0/
