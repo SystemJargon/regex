@@ -15,6 +15,16 @@ More about this in my Pi-hole repo with regex [here](https://github.com/lz-eng/p
 
 ----
 
+## Strip port numbers at end of URL
+
+Regular Expression string:
+
+```
+:[\d]+$
+```
+
+----
+
 ## Strip down full URL to domain name
 
 https://www.google.com/api?=login/someshit/0931750135145/
