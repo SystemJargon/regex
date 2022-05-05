@@ -39,6 +39,8 @@ Usage could be for a sysadmin or someone to get just the domain name / subdomain
 ^http:..|^https:..|\/.*
 ```
 
+Regex validated [here](https://regex101.com/r/7NVd2e/4)
+
 Of course you could replace the text to be something else instead of url and domain strings (you get the picture I hope).
 
 
