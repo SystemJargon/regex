@@ -42,4 +42,5 @@ In a text editor GUI try this:
 
 (usually Ctrl+H on Windows for 'replace')
 find string/what: ```^```
-replace string/what: ```||```
+replace string/what: ```\1\||``` or ```||```
+Enable Regular Expression, Tick Matches newline. Click Replace All
