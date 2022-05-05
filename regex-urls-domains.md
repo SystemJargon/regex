@@ -1,4 +1,4 @@
-## Specify a domain with wildcards, varied examples below.
+## Examples of regex and wildcards with domains and URLs
 
 * any subdomain of example.com ```(\.|^)example\.com$```
 * any subdomain of example.net  ```(\.|^)example\.net$```
