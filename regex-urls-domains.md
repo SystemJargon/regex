@@ -11,7 +11,7 @@ Then you could try something like this, for keyword multi-string in the domain n
 (\.)(adult|ads|adverts|advertising|click|porn|sex|telemetry|tracking|tracing)$
 ```
 
-More about this in my Pi-hole repo with regex [here](https://github.com/lz-eng/pi-hole/regex)
+More about this in my Pi-hole repo with regex [here](https://github.com/SystemJargon/pi-hole/regex)
 
 ----
 
