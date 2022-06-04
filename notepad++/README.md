@@ -1,8 +1,10 @@
-Regex works in Notepad++ such as that in Find or Replace. Regular Expression is a radio/check box to select first, then enter the criteria to use.
+### Regex in Notepad++
+
+It can be used in the example of Find or Replace. Regular Expression is a radio/check box to select first, then enter the criteria to use.
 
 ----
 
-Macros in Notepad++ (alternative)
+### Macros in Notepad++ (as an alternative)
 
 Included shortcuts.xml file example
 
