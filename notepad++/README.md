@@ -26,3 +26,10 @@ Strip and Remove text plain or from html contents of;
 * Text contains any of: hxxps:// hxxps[:]// https[:]// https:// and
 * Text contains any of: hxxp:// hxxp[:]// http[:]// http://
 
+----
+
+Why/what hxxp??? 
+
+Because some people I communicate with replace http with hxxp in the prefix per line of each bad URL (to later block).
+
+Why hxxp? So the link is NOT clickable/scanned as such in communications, i.e. email.
