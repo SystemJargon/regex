@@ -1,5 +1,7 @@
 ## Examples of regex and wildcards with domains and URLs
 
+MATCH REGEX
+
 * any subdomain of example.com ```(\.|^)example\.com$```
 * any subdomain of example.net  ```(\.|^)example\.net$```
 * ads as subdomain but not known TLD ```(\.|^)ads\.$```
@@ -14,6 +16,28 @@ Then you could try something like this, for keyword multi-string in the domain n
 More about this in my Pi-hole repo with regex [here](https://github.com/SystemJargon/pi-hole/regex)
 
 ----
+
+## Strip sub-domains to root domain (Find)
+
+Example Notepad++
+
+Use this as the FIND context and use REPLACE with blank.
+
+```
+^[^.]*\.(?=\w+\.\w+$)
+```
+
+Explained:
+
+    ^ = start of line
+    [^.]* = any number of chars that are not a dot
+    \. = a dot
+    (?=[^.]+\.[^.]+$) = there must be exactly one word, one dot then one word from here to the end
+
+
+
+----
+
 
 ## Strip port numbers at end of URL
 
