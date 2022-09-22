@@ -80,3 +80,5 @@ In a text editor GUI try this:
 find string/what: ```^```
 replace string/what: ```\1\||``` or ```||```
 Enable Regular Expression, Tick Matches newline. Click Replace All
+
+and/or, Find ```$``` and replace with ```^$important``` - this will add ^$important to the end of each line
