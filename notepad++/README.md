@@ -18,7 +18,11 @@ Use this as the FIND criteria and use the replace text as whatever you want or b
 
 ### Macros in Notepad++ (as an alternative)
 
-Included shortcuts.xml file example
+Included [shortcuts.xml](https://raw.githubusercontent.com/SystemJargon/regex/main/notepad%2B%2B/shortcuts.xml) file example in this repo. 
+
+Usually lives at C:\Users\%username%\AppData\Roaming\Notepad++\shortcuts.xml
+* Be sure to backup/copy your existing shortcuts.xml first.
+* Add the contents of the included shortcuts.xml for ease of use with example regex, mostly for domain/url and port numbers replace/stripping.
 
 Strip and Remove text plain or from html contents of;
  
