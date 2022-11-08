@@ -70,7 +70,7 @@ Of course you could replace the text to be something else instead of url and dom
 
 ----
 
-## Convert a URL list to EasyList format
+## Convert a HOSTS list to EasyList/AdGuard format
 
 Debian CLI: ```sed 's/^/||/' pihole-format.txt > easylist-format.txt```
 
